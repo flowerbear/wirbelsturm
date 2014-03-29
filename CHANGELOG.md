@@ -2,6 +2,8 @@
 
 IMPROVEMENTS
 
+* Use [vagrant-hostmanager](https://github.com/smdahlen/vagrant-hostmanager) instead of
+  [vagrant-hosts](https://github.com/adrienthebo/vagrant-hosts) to manage `/etc/hosts` on deployed machines.
 * WIRBELSTURM-2: `bootstrap` now supports the `--skip-ruby` parameter.  If set, `bootstrap` will skip the installation
   of Ruby/rvm/bundler/gems. (thanks bzz)
 * Environment `default_environment`: enforce setting timezone to 'UTC'
